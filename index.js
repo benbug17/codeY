@@ -65,6 +65,12 @@ function makeSound(key) {
       audio.play();
       break;
 
+     case "y":
+      var audio = new Audio('sounds/splash.mp3');
+      audio.play();
+      break;
+
+
     default:
       console.log(buttonInnerHTML);
   }
